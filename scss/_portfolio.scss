@@ -5,6 +5,9 @@ $mobile: 768px;
     @media screen and (max-width: $mobile) {
         overflow-x: scroll;
         display: -webkit-box;
+        display: -moz-box;
+        display: -ms-box;
+        display: box;
         div {
             width: 10em;
         }
