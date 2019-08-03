@@ -1,4 +1,16 @@
 // Styling for the portfolio section
+$small: 576px;
+
+#skills-hr-scroll {
+    @media screen and (max-width: $small) {
+        overflow-x: scroll;
+        display: -webkit-box;
+        div {
+            width: 10em;
+        }
+    }
+}
+
 .experience {
     margin: 2rem;
 }

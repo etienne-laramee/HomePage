@@ -10705,6 +10705,16 @@ header.masthead h1 {
   }
 }
 
+@media screen and (max-width: 576px) {
+  #skills-hr-scroll {
+    overflow-x: scroll;
+    display: -webkit-box;
+  }
+  #skills-hr-scroll div {
+    width: 10em;
+  }
+}
+
 .experience {
   margin: 2rem;
 }
