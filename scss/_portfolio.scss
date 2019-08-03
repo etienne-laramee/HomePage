@@ -1,8 +1,8 @@
 // Styling for the portfolio section
-$small: 576px;
+$mobile: 768px;
 
 #skills-hr-scroll {
-    @media screen and (max-width: $small) {
+    @media screen and (max-width: $mobile) {
         overflow-x: scroll;
         display: -webkit-box;
         div {
@@ -13,6 +13,10 @@ $small: 576px;
 
 .experience {
     margin: 2rem;
+}
+
+.thumbnail {
+    margin: 0 0 0 1em;
 }
 
 #portfolio {

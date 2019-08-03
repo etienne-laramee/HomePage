@@ -10705,7 +10705,7 @@ header.masthead h1 {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   #skills-hr-scroll {
     overflow-x: scroll;
     display: -webkit-box;
@@ -10717,6 +10717,10 @@ header.masthead h1 {
 
 .experience {
   margin: 2rem;
+}
+
+.thumbnail {
+  margin: 0 0 0 1em;
 }
 
 #portfolio .container-fluid {
